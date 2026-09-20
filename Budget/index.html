@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
-<meta name="theme-color" content="#08090f" />
+<meta name="theme-color" content="#08090f" />`n<link rel="manifest" href="manifest.webmanifest" />`n<link rel="apple-touch-icon" href="icon.svg" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <title>Chrono — Calendrier intelligent</title>
@@ -1975,5 +1975,5 @@ document.addEventListener('keydown',e=>{
 
 })();
 </script>
-</body>
+<script>if ('serviceWorker' in navigator) { window.addEventListener('load', () => navigator.serviceWorker.register('sw.js', { scope: './' })); }</script>`n</body>
 </html>
