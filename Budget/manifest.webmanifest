@@ -1,2 +1,16 @@
-{"name":"Mon Agenda / مفكرتي","short_name":"Agenda","start_url":"./","display":"standalone","background_color":"#f5f6fb","theme_color":"#5b4bdb","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
-
+{
+  "name": "Chrono — Calendrier & rappels",
+  "short_name": "Chrono",
+  "description": "Calendrier intelligent bilingue avec tâches et rappels.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08090f",
+  "theme_color": "#08090f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
